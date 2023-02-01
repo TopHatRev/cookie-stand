@@ -1,9 +1,15 @@
 body {
-  background-color: cadetblue;
-  color: aliceblue;
+  background-color: #083d77;
+  color: white;
   font-family: monospace;
 }
 
-h1{
-  text-align: center;
+a {
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #fff;
+  padding: 0.5rem;
 }
