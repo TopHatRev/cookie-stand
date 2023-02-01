@@ -1,11 +1,11 @@
 body {
   background-color: #083d77;
-  color: white;
+  color: #f9f9f1;
   font-family: monospace;
 }
 
 a {
-  color: white;
+  color: #f9f9f1;
 }
 
 td,
@@ -14,17 +14,22 @@ th {
   padding: 0.5rem;
 }
 
-h1 {
-  text-align: center;
+.icon {
+  display: flex;
+  padding: 10px 0;
+  width: 80px;
 }
 
-.locations {
+.headerBar {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
 .locations ul {
-  border: 5px solid white;
+  border: 5px solid #f9f9f1;
   display: flex;
   flex-direction: column;
   list-style: square;
@@ -42,7 +47,7 @@ h1 {
 }
 
 .times {
-  border: 5px solid white;
+  border: 5px solid #f9f9f1;
   display: flex;
   flex-direction: column;
   background-color: #063260;
@@ -53,7 +58,8 @@ h1 {
 .missionPara {
   font-size: 1.2rem;
   display: flex;
-  border: 5px solid white;
+  border: 5px solid #f9f9f1;
+  background-color: #063260;
 }
 
 .missionPara p {
