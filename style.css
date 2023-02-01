@@ -13,3 +13,49 @@ th {
   border: 1px solid #fff;
   padding: 0.5rem;
 }
+
+h1 {
+  text-align: center;
+}
+
+.locations {
+  justify-content: center;
+  align-items: center;
+}
+
+.locations ul {
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  list-style: square;
+  width: 60%;
+  font-size: 1.2rem;
+  background-color: #063260;
+  text-align: center;
+}
+
+.salesButton {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+.times {
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  background-color: #063260;
+  font-size: 1.2rem;
+  width: 70%;
+}
+
+.missionPara {
+  font-size: 1.2rem;
+  display: flex;
+  border: 5px solid white;
+}
+
+.missionPara p {
+  margin: 5px;
+}
